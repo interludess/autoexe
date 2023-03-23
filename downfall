@@ -1,0 +1,7 @@
+local queue_on_teleport =
+queue_on_teleport or
+    syn and
+        syn.queue_on_teleport [[
+       repeat wait() until game:IsLoaded() wait(1) print("ServerHoped or rejoined")
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/interludess/DownfallDhVersion/main/V2.lua", true))()]]
+  
